@@ -23,7 +23,7 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array.each do |a| a << "$"
+  array.each do |a| a.insert(2, "$")
     array
 end
 end
