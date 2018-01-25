@@ -36,8 +36,8 @@ end
 
 def add_s(array)
   array.each_with_index.collect {|a, index|}
-  if index = array[1]
-    array
+  if index = 1
+
   else
     array + "s"
   end
