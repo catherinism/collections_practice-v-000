@@ -35,8 +35,5 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  array[1] = array
+  array.each_with_index {|}
   end
-
-
-end
