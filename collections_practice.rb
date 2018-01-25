@@ -8,5 +8,5 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(integers)
-  integers.sort.lenth
+  integers.sort.length
 end
