@@ -36,7 +36,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |a, index|
-    if a != 1
+    if a != a[1]
       a + "s"
   else
     a
