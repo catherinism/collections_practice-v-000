@@ -35,7 +35,7 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  array.each {|element| element.insert(s)}
+  array.each {|element| element.insert("s")}
 
 
 end
