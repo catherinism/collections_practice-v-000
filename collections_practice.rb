@@ -35,7 +35,7 @@ def sum_array(integers)
 end
 
 def add_s(array)
-  array.collect {|element| element[1] = array }
+  array.collect {|element| element[1] == array }
   element << "s"
 
 
