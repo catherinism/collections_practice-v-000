@@ -24,6 +24,6 @@ end
 
 def kesha_maker(array)
   array.collect do |a| a.replace("$")
-    array
+    
 end
 end
