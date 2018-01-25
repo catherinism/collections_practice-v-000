@@ -28,5 +28,5 @@ end
 
 def find_a(array)
   array.find {|a|.start_with("a")}
-  array
+
 end
