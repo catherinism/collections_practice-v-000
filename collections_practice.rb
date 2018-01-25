@@ -36,7 +36,7 @@ end
 
 def add_s(array)
   array.collect {|element| element[1] == array }
-  array."s"
+  array.insert("s")
 
 
 end
