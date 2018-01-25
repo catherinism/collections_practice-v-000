@@ -39,6 +39,6 @@ def add_s(array)
   if index = 1
     array
   else
-    array + "s"
+    a + "s"
   end
   end
