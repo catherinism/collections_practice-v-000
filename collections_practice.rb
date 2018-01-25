@@ -9,5 +9,4 @@ end
 
 def sort_array_char_count(integers)
   integers.sort.lenth
-
 end
