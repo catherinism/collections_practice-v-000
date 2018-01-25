@@ -8,6 +8,6 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(array)
-  array.collect do |a| a.sort
+  array.collect do |a| a.sort.length
   end
 end
